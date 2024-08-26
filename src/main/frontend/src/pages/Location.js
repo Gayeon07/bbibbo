@@ -3,9 +3,10 @@ import './style.css';
 
 function Location() {
   return (
-    <div>
-      <h1>Location Page</h1>
-      <p>This is location page.</p>
+    <div className="list">
+      <button className="list_button">지역</button>
+      <button className="list_button">인기</button>
+      <button className="list_button">최신</button>
     </div>
   );
 }
