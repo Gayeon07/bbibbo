@@ -8,9 +8,9 @@ import java.util.Arrays;
 import java.util.List;
 
 @RestController
-public class HelloController {
+public class BbibboController {
     @GetMapping("/api/demo-web")
-    public List<String> Hello(){
-        return Arrays.asList("리액트 스프링 ", "연결 성공");
+    public List<String> Bbibbo(){
+        return Arrays.asList("삐뽀, 삐뽀");
     }
 }

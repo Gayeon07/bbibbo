@@ -1,4 +1,4 @@
-h1,p{
+.introduction{
     margin-left:180px;
 }
 body{
@@ -65,4 +65,19 @@ body{
       color: black;
       cursor: pointer;
       font-weight: bolder;
+}
+
+.disaster_alarm{
+    border-width: 3px;
+    border-color: #fae278;
+    border-radius: 10px;
+    border-style: solid;
+    padding: 10px;
+}
+
+.disaster_alarm_window{
+    margin-top: 20px;
+    display: flex;
+    flex-direction:column;
+    gap: 10px;
 }
